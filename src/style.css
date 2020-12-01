@@ -1,0 +1,63 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.header .header__image {
+    background: url('../assets/foto-header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header.header .header__image .header__image--title {
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.41);
+}
+
+header.header .header__description {
+    padding: 20px;
+    text-align: center;
+}
+
+header.header .header__description .header__description--text {
+    color: #7D7877;
+    font-weight: bold;
+}
+
+header.header .header__open-jobs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header.header .header__open-jobs .header__open-jobs--separator {
+    width: 280px;
+    height: 2px;
+    color: #adadad;
+    background: #adadad;
+    font-size: 0;
+    border: 0;
+}
+
+header.header .header__open-jobs .header__open-jobs--link {
+    color: #359C9C;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+header.header .header__open-jobs .header__open-jobs--link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
