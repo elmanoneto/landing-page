@@ -61,3 +61,38 @@ header.header .header__open-jobs .header__open-jobs--link:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+main.main {
+    background-color: #F8F8F8;
+    padding: 40px;
+    margin: 30px 0 0 0;
+}
+
+main.main .main__team {
+    margin: 50px 0 0 0;
+}
+
+main.main .main__team .main__team--title {
+    color: #7D7873;
+    text-align: center;
+}
+
+main.main .main__team .main__team--people {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+main.main .main__team .main__team--people img{
+    margin: 7px 7px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width: 680px) {
+    main.main .main__team .main__team--people img{
+        width: 25%;
+    }
+ }
