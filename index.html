@@ -23,12 +23,19 @@
     </header>
 
     <main class="main">
-        <section class="main__ceo-words">
-            <img src="./assets/placeholder-video.png" />
-        </section>
+        <article class="main__ceo-words">
+            <img src="./assets/placeholder-video.png" class="main__ceo-words--image" />
+            <div>
+                <h3 class="main__ceo-words--title">PALAVRA DO CEO</h3>
+                <p class="main__ceo-words--author"><i>Carlos Curioni</i></p>
+                <p class="main__ceo-words--testmonial">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </article>
 
-        <section class="main__team">
-            <h2 class="main__team--title">CONHEÇA NOSSO TIME FORA DE SÉRIE</h2>
+        <article class="main__team">
+            <div class="main__team--title">
+                <h2>CONHEÇA NOSSO TIME FORA DE SÉRIE</h2>
+            </div>
 
             <div class="main__team--people">
                 <img src="./assets/camila.png" alt="Camila" title="Camila" />
@@ -36,7 +43,11 @@
                 <img src="./assets/david.png" alt="David" title="David" />
                 <img src="./assets/beatriz.png" alt="Beatriz" title="Beatriz" />
             </div>
-        </section>
+        </article>
     </main>
+
+    <div id="teste"></div>
+
+    <script src="./src/index.js" defer></script>
 </body>
 </html>

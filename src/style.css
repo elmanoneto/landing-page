@@ -68,13 +68,61 @@ main.main {
     margin: 30px 0 0 0;
 }
 
+main.main .main__ceo-words {
+    display: flex;
+}
+
+main.main .main__ceo-words--title {
+    color: #7D7878;
+}
+
+main.main .main__ceo-words--author {
+    color: #F9AF41;
+}
+
+main.main .main__ceo-words--testmonial {
+    color: #7D7878;
+    padding-top: 20px;
+}
+
+main.main .main__ceo-words--image {
+    max-width: 100%;
+}
+
+main.main .main__ceo-words div {
+    margin: 0 0 0 40px;
+}
+
+@media screen and (max-width: 800px) {
+    main.main .main__ceo-words div {
+        margin: 0;
+    }
+
+    main.main .main__ceo-words {
+        flex-direction: column;
+    }
+
+    main.main .main__ceo-words--testmonial {
+        text-align: center;
+    }
+
+    main.main .main__ceo-words--title {
+        padding-top: 20px;
+    }
+ }
+
 main.main .main__team {
     margin: 50px 0 0 0;
 }
 
 main.main .main__team .main__team--title {
+    display: flex;
+    justify-content: center;
+}
+main.main .main__team .main__team--title h2 {
     color: #7D7873;
     text-align: center;
+    width: 250px;
 }
 
 main.main .main__team .main__team--people {
@@ -82,6 +130,7 @@ main.main .main__team .main__team--people {
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-top: 40px;
 }
 
 main.main .main__team .main__team--people img{
@@ -91,7 +140,7 @@ main.main .main__team .main__team--people img{
     display: block;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 800px) {
     main.main .main__team .main__team--people img{
         width: 25%;
     }
