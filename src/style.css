@@ -145,3 +145,33 @@ main.main .main__team .main__team--people img{
         width: 25%;
     }
  }
+
+ div.about-us {
+     padding: 30px;
+     display: flex;
+     color: #7D7873;
+ }
+
+ div.about-us .about-us__life-quality, div.about-us .about-us__environment, div.about-us .about-us__extras  {
+     flex: 1;
+     text-align: center;
+     margin: 10px;
+ }
+
+ div.about-us .about-us__life-quality .about-us__life-quality--title, div.about-us .about-us__environment .about-us__environment--title, div.about-us .about-us__extras .about-us__extras--title {
+    margin: 30px 0 30px 0;
+}
+
+ div.about-us .about-us__life-quality .about-us__life-quality--text, div.about-us .about-us__environment .about-us__environment--text, div.about-us .about-us__extras .about-us__extras--text {
+     text-align: justify;
+ }
+
+ @media screen and (max-width: 800px) {
+    div.about-us {
+        flex-direction: column;
+    }
+
+    div.about-us .about-us__life-quality .about-us__life-quality--text, div.about-us .about-us__environment .about-us__environment--text, div.about-us .about-us__extras .about-us__extras--text {
+        text-align: center;
+    }
+ }
