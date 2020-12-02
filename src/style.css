@@ -175,3 +175,32 @@ main.main .main__team .main__team--people img{
         text-align: center;
     }
  }
+
+ div.know-more {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.know-more .know-more__separator {
+    width: 280px;
+    height: 2px;
+    color: #adadad;
+    background: #adadad;
+    font-size: 0;
+    border: 0;
+}
+
+div.know-more .know-more__link {
+    color: #359C9C;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+div.know-more .know-more__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
