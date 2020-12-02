@@ -18,7 +18,7 @@
 
         <section class="header__open-jobs">
             <hr class="header__open-jobs--separator"/>
-            <a class="header__open-jobs--link">VAGAS EM ABERTO »</a>
+            <a class="header__open-jobs--link" onclick="goOpenJobs()">VAGAS EM ABERTO »</a>
         </section>
     </header>
 
@@ -47,28 +47,46 @@
     </main>
 
     <div class="about-us">
-        <section class="about-us__life-quality">
-            <img src="./assets/qualidade.png" alt="Qualidade de vida" title="Qualidade de vida" />
-            <h2 class="about-us__life-quality--title">QUALIDADE DE VIDA</h2>
-            <p class="about-us__life-quality--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </section>
+        <div>
+            <section class="about-us__life-quality">
+                <img src="./assets/qualidade.png" alt="Qualidade de vida" title="Qualidade de vida" />
+                <h2 class="about-us__life-quality--title">QUALIDADE DE VIDA</h2>
+                <p class="about-us__life-quality--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </section>
+    
+            <section class="about-us__environment">
+                <img src="./assets/descontracao.png" alt="Ambiente descontraído" title="Ambiente descontraído" />
+                <h2 class="about-us__environment--title">AMBIENTE DESCONTRAÍDO</h2>
+                <p class="about-us__environment--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </section>
+    
+            <section class="about-us__extras">
+                <img src="./assets/atividades.png" alt="Atividades extras" title="Atividades extras" />
+                <h2 class="about-us__extras--title">ATIVIDADES EXTRAS</h2>
+                <p class="about-us__extras--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </section>
+        </div>
 
-        <section class="about-us__environment">
-            <img src="./assets/descontracao.png" alt="Ambiente descontraído" title="Ambiente descontraído" />
-            <h2 class="about-us__environment--title">AMBIENTE DESCONTRAÍDO</h2>
-            <p class="about-us__environment--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </section>
-
-        <section class="about-us__extras">
-            <img src="./assets/atividades.png" alt="Atividades extras" title="Atividades extras" />
-            <h2 class="about-us__extras--title">ATIVIDADES EXTRAS</h2>
-            <p class="about-us__extras--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </section>
+        <div class="know-more">
+            <hr class="know-more__separator"/>
+            <a class="know-more__link">SAIBA MAIS »</a>
+        </div>
     </div>
 
-    <div class="know-more">
-        <hr class="know-more__separator"/>
-        <a class="know-more__link">SAIBA MAIS »</a>
+    <div class="jobs">
+        <img src="./assets/foto-bottom.png" alt="Vagas" title="Vagas" class="jobs__image">
+
+        <section class="jobs__open-jobs">
+            <h2 class="jobs__open-jobs--title" id="open-jobs">VAGAS EM ABERTO</h2>
+
+            <div class="jobs__open-jobs--list">
+                <h3>DESENVOLVIMENTO</h3>
+                
+                <ul id="jobs-list">
+                    
+                </ul>
+            </div>
+        </section>
     </div>
 
     <script src="./src/index.js" defer></script>

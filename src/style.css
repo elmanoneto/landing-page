@@ -149,7 +149,12 @@ main.main .main__team .main__team--people img{
  div.about-us {
      padding: 30px;
      display: flex;
+     flex-direction: column;
      color: #7D7873;
+ }
+
+ div.about-us div {
+    display: flex;
  }
 
  div.about-us .about-us__life-quality, div.about-us .about-us__environment, div.about-us .about-us__extras  {
@@ -167,7 +172,7 @@ main.main .main__team .main__team--people img{
  }
 
  @media screen and (max-width: 800px) {
-    div.about-us {
+    div.about-us div {
         flex-direction: column;
     }
 
@@ -183,6 +188,7 @@ main.main .main__team .main__team--people img{
     align-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 20px 0 0 0;
 }
 
 div.know-more .know-more__separator {
@@ -203,4 +209,60 @@ div.know-more .know-more__link {
 div.know-more .know-more__link:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+div.jobs {
+    display: flex;
+    flex-direction: column;
+}
+
+div.jobs .jobs__image {
+    width: 100%;
+}
+
+div.jobs .jobs__open-jobs {
+    padding: 20px;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--title {
+    color: #7D7873;
+    text-align: center;
+    margin: 40px 0;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list h3 {
+    color: #7D7873;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul {
+    list-style-type: none;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li a {
+    color: #4CA2A0;
+    text-decoration: none;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li a:hover {
+    text-decoration: underline;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li:nth-child(odd) {
+    background-color: #efefef;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li .description {
+    color: #4CA2A0;
+    flex: 3;
+}
+
+div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li .location {
+    color: #B0ADA5;
+    flex: 1;
 }
