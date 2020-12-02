@@ -266,3 +266,18 @@ div.jobs .jobs__open-jobs .jobs__open-jobs--list ul li .location {
     color: #B0ADA5;
     flex: 1;
 }
+
+footer.footer {
+    height: 200px;
+    background-color: #F9A90B;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer.footer a {
+    color: #fff;
+    font-weight: bold;
+}
